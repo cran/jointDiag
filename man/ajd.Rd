@@ -31,7 +31,8 @@ been performed without reaching convergence. If the maximum number of
 iteration is performed, a warning appears.}
   \item{keepTrace}{BOOLEAN. Do we want to keep the successive estimations of 
 the joint diagonalizer.}
-  \item{methods}{ ~~Describe \code{methods} here~~ }
+  \item{methods}{STRING. One or more methods, choosen among the set of available
+algorithms. Possible values are: jedi, ffdiag, jadiag, uwedge, qdiag}
 }
 \details{
 	This function is mainly a wrapper to use the different algorithms provided

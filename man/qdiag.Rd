@@ -8,7 +8,8 @@ and real-valued matrices}
 square, symmetric and real-valued matrices. 
 }
 \usage{
-qdiag(C, W0 = NULL, eps = .Machine$double.eps, itermax = 200, keepTrace = FALSE)
+qdiag(C, W0 = NULL, eps = .Machine$double.eps, itermax = 200, 
+		keepTrace = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

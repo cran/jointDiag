@@ -13,7 +13,8 @@ a non-orthogonal joint diagonalizer. It is an extension of the
 JADE method (orthogonal joint diagonalization). 
 }
 \usage{
-jedi(M, A0 = NULL, eps = .Machine$double.eps, itermax = 200, keepTrace = FALSE)
+jedi(M, A0 = NULL, eps = .Machine$double.eps, itermax = 200, 
+		keepTrace = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -36,7 +37,7 @@ iteration is performed, a warning appears.}
 the joint diagonalizer.}
 }
 \details{
-  Given a set \eqn{M_i} of \code{N} \code{K \times K} square and
+  Given a set \eqn{M_i} of \code{N} \code{K} \eqn{\times} \code{K} square and
 real-valued matrices, the
 algorithm is looking for a matrix \eqn{A} such that
 \eqn{\forall i \in [1,N]}, \eqn{A^{-1} C_i A^{-T}} is as close as possible of a

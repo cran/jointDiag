@@ -9,7 +9,7 @@ square and real-valued matrices.
 }
 \usage{
 ffdiag(C0, V0 = NULL, eps = .Machine$double.eps, itermax = 200, 
-keepTrace = FALSE)
+		keepTrace = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
